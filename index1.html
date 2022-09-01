@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Child Education </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Bhai+2?query=baloo+bh">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('image/edu.jpg');
+            font-family: 'baloo bhai2', cursive;
+            /* background-color: rgba(62, 179, 243, 0.966); */
+
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+        }
+
+        .left div {
+            line-height: 20px;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid rgba(12, 27, 241, 0.934); */
+            display: block;
+            width: 38%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 35px;
+            top: 20px;
+            /* border: 2px solid rgb(249, 193, 9); */
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 24px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgba(45, 244, 164, 0.915);
+
+
+        }
+
+        .btn {
+            padding: 17px 46px;
+            margin: 0px 10px;
+            color: #0e0d0d;
+            border: 3px solid rgb(9, 249, 9);
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'baloo bhai2', cursive;
+        }
+
+        .btn:hover {
+            color: yellowgreen;
+        }
+
+        .contaner {
+            border: 5px solid rgb(1, 1, 9);
+            margin: 110px 50px;
+            padding: 25px 75px;
+            border-radius: 22px;
+            width: 33%;
+            text-align: center;
+            /* background-color: rgb(235, 137, 186); */
+        }
+
+        .form-group input {
+            text-align: center;
+            margin: 5px auto;
+            border: 2px solid black;
+            padding: 2px 2px;
+            font-size: 15px;
+            border-radius: 10px;
+            display: block;
+            width: 70%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="image/book.png" alt="" width="155px" height="107px">
+            <div class="div"> Uncle's School</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Contact Us.</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Academics</button>
+            <button class="btn">Circular</button>
+        </div>
+    </header>
+    <div class="contaner">
+        <h1>Admission Form</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Class">
+        </div>
+
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
